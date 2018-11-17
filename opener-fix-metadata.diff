@@ -1,5 +1,5 @@
---- opener-0.3.0/Cargo.toml	1970-01-01T01:00:00+01:00
-+++ opener-0.3.0/Cargo.toml	2018-11-15T20:15:55.616761+01:00
+--- opener-0.3.2/Cargo.toml	1970-01-01T01:00:00+01:00
++++ opener-0.3.2/Cargo.toml	2018-11-17T11:08:54.360523+01:00
 @@ -24,9 +24,6 @@
  
  [dependencies.failure_derive]

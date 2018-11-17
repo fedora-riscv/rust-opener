@@ -5,11 +5,10 @@
 %global crate opener
 
 Name:           rust-%{crate}
-Version:        0.3.0
+Version:        0.3.2
 Release:        1%{?dist}
 Summary:        Open a file or link using the system default program
 
-# https://github.com/Seeker14491/opener/issues/1
 # Upstream license specification: MIT OR Apache-2.0
 License:        MIT or ASL 2.0
 URL:            https://crates.io/crates/opener
@@ -39,6 +38,7 @@ This package contains library source intended for building other packages
 which use "%{crate}" crate.
 
 %files          devel
+%license LICENSE-APACHE LICENSE-MIT LICENSE-THIRD-PARTY
 %{cargo_registry}/%{crate}-%{version}/
 
 %package     -n %{name}+default-devel
@@ -69,5 +69,8 @@ which use "default" feature of "%{crate}" crate.
 %endif
 
 %changelog
+* Sat Nov 17 2018 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.3.2-1
+- Update to 0.3.2
+
 * Thu Nov 15 2018 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.3.0-1
 - Initial package
