@@ -6,7 +6,7 @@
 
 Name:           rust-%{crate}
 Version:        0.3.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Open a file or link using the system default program
 
 # Upstream license specification: MIT OR Apache-2.0
@@ -69,6 +69,9 @@ which use "default" feature of "%{crate}" crate.
 %endif
 
 %changelog
+* Sat Feb 02 2019 Fedora Release Engineering <releng@fedoraproject.org> - 0.3.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
+
 * Sat Nov 17 2018 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.3.2-1
 - Update to 0.3.2
 
