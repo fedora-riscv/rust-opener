@@ -1,13 +1,12 @@
---- opener-0.4.1/Cargo.toml	1970-01-01T00:00:00+00:00
-+++ opener-0.4.1/Cargo.toml	2019-12-07T02:28:56.996240+00:00
-@@ -22,9 +22,7 @@
- repository = "https://github.com/Seeker14491/opener"
- 
- [dependencies]
+--- opener-0.5.0/Cargo.toml	1970-01-01T00:00:00+00:00
++++ opener-0.5.0/Cargo.toml	2022-02-21T23:06:31.709936+00:00
+@@ -25,9 +25,6 @@
+ version = "0.9"
+ [target."cfg(target_os = \"linux\")".dependencies.bstr]
+ version = "0.2"
 -[target."cfg(windows)".dependencies.winapi]
 -version = "0.3"
 -features = ["shellapi"]
-+
  [badges.appveyor]
  branch = "master"
  repository = "Seeker14491/opener"
