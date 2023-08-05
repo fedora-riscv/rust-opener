@@ -1,5 +1,5 @@
 --- opener-0.5.0/Cargo.toml	1970-01-01T00:00:00+00:00
-+++ opener-0.5.0/Cargo.toml	2022-02-21T23:06:31.709936+00:00
++++ opener-0.5.0/Cargo.toml	2023-08-05T22:37:47.635871+00:00
 @@ -25,9 +25,6 @@
  version = "0.9"
  [target."cfg(target_os = \"linux\")".dependencies.bstr]
